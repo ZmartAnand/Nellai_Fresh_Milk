@@ -1,0 +1,58 @@
+/* Active nav link */
+li a.nav-link {
+    position: relative;
+    color: #000; /* default link color */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #28a745; /* Bootstrap green (#198754 also works) */
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  
+  .active-link {
+    color: #28a745 !important;
+    font-weight: 600;
+  }
+  
+  /* Footer link hover */
+  .footer-link:hover {
+    color: #28a745 !important;
+  }
+  
+  /* Social icons hover */
+  .social-icon:hover {
+    color: #28a745 !important;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+  
+  /* WhatsApp Floating Button */
+  .whatsapp-float {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: transform 0.3s;
+  }
+  
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+  
