@@ -51,27 +51,7 @@
             >Contact</a
           >
         </li>
-        <!-- If user is NOT logged in -->
-        <!-- <li class="nav-item" *ngIf="!auth.isLoggedIn()">
-          <a class="btn btn-success px-3" routerLink="/login">Login</a>
-        </li> -->
-
-        <!-- If user IS logged in -->
-        <!-- <li class="nav-item dropdown" *ngIf="auth.isLoggedIn()">
-          <a class="nav-link dropdown-toggle fw-semibold text-success" href="#" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <img [src]="auth.getActiveUser()?.avatar || 'assets/default-avatar.png'" width="30" height="30"
-              class="rounded-circle me-1">
-            {{ auth.getActiveUser()?.name }}
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" routerLink="/profile">Profile</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item  text-danger" (click)="auth.logout()">Logout</a></li>
-          </ul>
-        </li> -->
+    
       </ul>
     </div>
   </div>
@@ -84,7 +64,7 @@
 <a
   href="https://wa.me/919003513313?text=Hi Nellai Form Milk, I need help with"
   target="_blank"
-  class="btn btn-success rounded-circle shadow-lg whatsapp-float"
+  class="btn btn-success rounded-circle shadow-lg whatsapp-float "
 >
   <i class="bi bi-whatsapp fs-3"></i>
 </a>
