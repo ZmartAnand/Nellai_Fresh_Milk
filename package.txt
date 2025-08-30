@@ -1,0 +1,10 @@
+ 
+//npm install bootstrap 
+//npm install bootstrap-icons
+//npm install --save-dev @types/bootstrap
+// npm install @emailjs/browser
+//npm install -g firebase-tools
+//npm install firebase
+//npm install animate.css --save
+//npm install aos
+
